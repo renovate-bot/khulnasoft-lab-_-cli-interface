@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: khulnasoft-lab/vulnmap-cli-interface
+  description: Interface definitions for interactions between Vulnmap CLI and associated components
+  tags:
+    - typescript
+  links:
+    - icon: message
+      title: "Team Asks Channel"
+      url: "https://khulnasoft.slack.com/channels/ask-team-hammer"
+  name: vulnmap-cli-interface
+spec:
+  lifecycle: unknown
+  type: library
+  owner: hammer

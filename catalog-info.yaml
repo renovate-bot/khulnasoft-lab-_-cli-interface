@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vulnmap-cli-interface
+  annotations:
+    github.com/project-slug: khulnasoft-lab/cli-interface
+spec:
+  type: vulnmap-cli-plugin
+  lifecycle: "-"
+  owner: hammerhead
