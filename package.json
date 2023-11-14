@@ -1,0 +1,34 @@
+{
+  "name": "@khulnasoft/cli-interface",
+  "description": "Vulnmap CLI interface definitions",
+  "homepage": "https://github.com/khulnasoft-lab/cli-interface",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft-lab/cli-interface"
+  },
+  "main": "index.js",
+  "files": [
+    "**/*.d.ts",
+    "**/*.js",
+    "**/*.js.map"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "prepare": "npm run build",
+    "test": "npm run build && npm run lint"
+  },
+  "author": "khulnasoft.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@khulnasoft/dep-graph": "^0.0.1",
+    "tslint": "^6",
+    "typescript": "^3"
+  },
+  "dependencies": {
+    "@types/graphlib": "^2"
+  },
+  "peerDependencies": {
+    "@khulnasoft/dep-graph": ">=1"
+  }
+}
