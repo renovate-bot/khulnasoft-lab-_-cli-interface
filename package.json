@@ -1,6 +1,7 @@
 {
   "name": "@khulnasoft/cli-interface",
   "description": "Vulnmap CLI interface definitions",
+  "version": "0.0.1",
   "homepage": "https://github.com/khulnasoft-lab/cli-interface",
   "repository": {
     "type": "git",
