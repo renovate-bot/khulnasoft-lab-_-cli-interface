@@ -24,7 +24,7 @@
   "devDependencies": {
     "@khulnasoft/dep-graph": "^0.0.1",
     "tslint": "^6",
-    "typescript": "^3"
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "@types/graphlib": "^2"
